@@ -1,0 +1,13 @@
+spring:
+  cassandra:
+    contact-points: 127.0.0.1
+    keyspace-name: cotscolab
+    port: 9042
+    username: cotscolab
+    password: cotscolab
+    schema-action: CREATE_IF_NOT_EXISTS
+    request:
+      timeout: 10s
+    connection:
+      connect-timeout: 10s
+    local-datacenter: datacenter1
